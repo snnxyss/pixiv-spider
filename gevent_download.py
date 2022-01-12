@@ -90,7 +90,7 @@ if __name__ == '__main__':
     date= input("请输入你的主页id: ")
     uids = get_uid().userid(data=date)
     print(uids)
-    pool = multiprocessing.Pool(processes=16)
+    pool = multiprocessing.Pool(processes=4)
     # print(uids)
     for uid in uids:
         pids = get_pid().getpid(uid=uid)
