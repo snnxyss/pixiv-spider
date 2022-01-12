@@ -7,15 +7,6 @@ from fake_useragent import UserAgent
 from bs4 import BeautifulSoup
 import re
 
-'''
-Author：pk哥
-Date：2021/1/24
-公众号：Python知识圈
-代码详细解析可在公众号「Python知识圈」找到对应文章
-你也可以在B站找到视频讲解，B站账号：「菜鸟程序员的日常」
-
-如有疑问或需要获取插画图，请联系微信号RookieProM：，备注来意，谢谢。
-'''
 
 
 class IpPool:
